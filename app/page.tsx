@@ -7,13 +7,13 @@ import {events} from "@/lib/constants";
 const Page = () => {
     return (
 
-        <section className="mt-7">
+        <section>
             <h1 className="text-center">The Hub for Every Dev <br /> Event you can't miss</h1>
             <p className="text-center mt-5">Hackathons, Meetups and Conferences, All in one Place</p>
 
             <ExploreBtn />
 
-            <div className="mt-20 space-y-7">
+            <div className="mt-20 space-y-7 px-15">
                 <h3>Featured Events</h3>
 
                 <ul className="events">
